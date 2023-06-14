@@ -2,6 +2,7 @@ import React from "react";
 
 
 
+
 function Charts() {
     return (
         <>
@@ -61,7 +62,7 @@ function Charts() {
 
                     <div className="card-body">
                         <div className="chart-pie pt-4 pb-2"><div className="chartjs-size-monitor"><div className="chartjs-size-monitor-expand"><div className=""></div></div><div className="chartjs-size-monitor-shrink"><div className=""></div></div></div>
-                            <canvas id="myPieChart" width={769} height={367} style={{display: 'block', height: '245px', width: '513px'}} className="chartjs-render-monitor"></canvas>
+                            <canvas id="myPieChart" width={769} height={367} style={{ display: 'block', height: '245px', width: '513px' }} className="chartjs-render-monitor"></canvas>
                         </div>
                         <div className="mt-4 text-center small">
                             <span className="mr-2">
